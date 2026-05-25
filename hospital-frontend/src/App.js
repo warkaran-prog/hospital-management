@@ -79,6 +79,7 @@ function App() {
       }
 
     } catch (error) {
+      alert("Error: " + error.message);
       console.error(error);
     }
   };

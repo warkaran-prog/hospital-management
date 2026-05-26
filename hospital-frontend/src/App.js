@@ -17,7 +17,7 @@ function App() {
   const fetchPatients = async () => {
     try {
       const response = await fetch(
-        "https://hospital-management-xths.onrender.com/patients"
+        "https://hospital-management-1-1unr.onrender.com/patients"
       );
 
       const data = await response.json();
@@ -49,7 +49,7 @@ function App() {
     try {
 
       const response = await fetch(
-        "https://hospital-management-xths.onrender.com/patients",
+        "https://hospital-management-1-1unr.onrender.com/patients",
         {
           method: "POST",
           headers: {
